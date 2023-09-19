@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>burerking</title>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="nav-bar">
+        <div class="logo">
+            <img src="Can I Eat Low Sodium at Burger King - Hacking Salt.png" alt="">
+        </div>
+        <div class="menu">
+            <ul class="nav-links">
+                <li><a href="#">home</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">location</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+        <div class="btn">
+            <button>cracknow</button>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!--container-->
+    <table>
+        <tr>
+            <td>Product name</td>
+            <td><input type="text" id="pn"></td>
+        </tr>
+        <tr>
+            <td>Product price</td>
+            <td><input type="text" id="pp"></td>
+        </tr>
+        <tr>
+            <td>Product quantity</td>
+            <td><input type="text" id="pq"></td>
+        </tr>
+        <tr>
+            <td>GST Rate</td>
+            <td>
+                <select id="gstRate">
+                    <option value="5">5%</option>
+                    <option value="12">12%</option>
+                    <option value="18">18%</option>
+                    <option value="28">28%</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Interstate</td>
+            <td>
+                <select id="interstate">
+                    <option value="0">Intrastate</option>
+                    <option value="1">Interstate</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="calculateGST()">Calculate GST</button>
+            </td>
+        </tr>
+    </table>
+
+    <table id="resultTable">
+        <tr>
+            <td>Product</td>
+            <td>Quantity</td>
+            <td>Amount</td>
+        </tr>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

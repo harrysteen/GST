@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,a,li,button,span{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    
+}
+.nav-bar .burger{
+
+    display: none;
+
+}
+
+.logo img{
+    
+    width: 100px;
+    
+}
+ .nav-links{
+    display: flex;
+    gap: 50px;
+   
+     
+ }
+ .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: #F4D54A;
+     
+ }
+
+ table{
+    background-color: rgb(87, 131, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+ }
